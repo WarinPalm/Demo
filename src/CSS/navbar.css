@@ -1,0 +1,10 @@
+
+.nav-content{
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    text-decoration: none;
+}
