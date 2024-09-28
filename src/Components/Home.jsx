@@ -13,8 +13,8 @@ const Home = () => {
             <Navbar />
             <section id="demo" className="main d-grid align-items-center">
                 <div className="container text-center">
-                    <h1>DEMO LOGO</h1>
-                    <p>Social media</p>
+                    <div className="logo-demo"></div>
+                    <h1 className="demo-title me-3">DEMONSTRATE THE FUTURE</h1>
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
                             <a className="nav-link" onClick={() => scrollToSection('demo')}>DEMO EDU</a>
@@ -42,7 +42,10 @@ const Home = () => {
                         </li>
 
                     </ul>
+                    <p className="mt-4">Social media</p>
+
                 </div>
+                
             </section>
             <section id="what-we-do" className="main2 d-grid align-items-center">
                 <div className="container text-center">
