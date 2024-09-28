@@ -1,1 +1,1 @@
-# Demo
+npm run dev
