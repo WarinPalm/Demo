@@ -8,6 +8,7 @@ import Home from './Components/Home.jsx';
 import Test from './Components/Test.jsx';
 import './index.css'
 import './CSS/navbar.css'
+import './CSS/style.css'
 
 const router = createBrowserRouter([
   {
