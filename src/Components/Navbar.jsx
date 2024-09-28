@@ -12,7 +12,7 @@ const Navbar = () => {
         <div style={{ position: 'sticky', top: '0', zIndex: '100' }}>
             <nav className="navbar1">
                 <div className="container nav-content mt-2">
-                    <h1 style={{ color: "white" }}>DEMO</h1>
+                    <h1 style={{ color: "white" }}>DEMO Logo</h1>
                     <ul className="nav justify-content-end">
                         <li className="nav-item">
                             <a className="nav-link" onClick={() => scrollToSection('demo')}>DEMONSTRATE</a>
