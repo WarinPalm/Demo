@@ -1,1 +1,2 @@
-# Demo
+#RUN WEBSITE
+npm run dev
