@@ -13,8 +13,35 @@ const Home = () => {
             <Navbar />
             <section id="demo" className="main d-grid align-items-center">
                 <div className="container text-center">
-                    <h1 className="text-start">DEMONSTRATE THE FUTURE</h1>
-                    <p className="text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit repellat nulla id eveniet optio earum enim animi corporis mollitia quisquam at incidunt!</p>
+                    <h1>DEMO LOGO</h1>
+                    <p>Social media</p>
+                    <ul className="nav justify-content-center">
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('demo')}>DEMO EDU</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('what-we-do')}>DEMO DEV</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('our-clients')}>DEMO DRONE</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO HOLO</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO SPACE</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO GAME</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO MUSIC</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO DJ</a>
+                        </li>
+
+                    </ul>
                 </div>
             </section>
             <section id="what-we-do" className="main2 d-grid align-items-center">
