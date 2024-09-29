@@ -1,6 +1,10 @@
 import React from "react";
 import Navbar from './Navbar.jsx';
 
+import OurServices from "./OurServices.jsx";
+
+import Footer from "./Footer.jsx";
+
 const Home = () => {
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
@@ -17,74 +21,40 @@ const Home = () => {
                     <h1 className="demo-title me-3">DEMONSTRATE THE FUTURE</h1>
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('demo')}>DEMO EDU</a>
+                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('demo')}>DEMO EDU</button>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('what-we-do')}>DEMO DEV</a>
+                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('demo')}>DEMO EDU</button>
+                        </li>
+                        
+                        <li className="nav-item">
+                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO MUSIC</button>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('our-clients')}>DEMO DRONE</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO HOLO</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO SPACE</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO GAME</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO MUSIC</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" onClick={() => scrollToSection('social')}>DEMO DJ</a>
+                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO DJ</button>
                         </li>
 
                     </ul>
                     <p className="mt-4">Social media</p>
+                </div>
+            </section>
+        
+   
+            <OurServices />
 
+            <Footer />
+            <div className="row" style={{position: 'fixed', bottom: "20px", right: "20px", zIndex: "100"}}>
+                <div className="col-1">
+                    <button className="btn btn-custom-demo" onClick={() => scrollToSection('demo')}>
+                        <img src="/DEMOLogo.png" alt=""/>
+                    </button>
                 </div>
-                
-            </section>
-            <section id="what-we-do" className="main2 d-grid align-items-center">
-                <div className="container text-center">
-                    <h1 className="text-start">What We Do?</h1>
-                    <p className="text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit repellat nulla id eveniet optio earum enim animi corporis mollitia quisquam at incidunt!</p>
-                </div>
-            </section>
-            <section id="our-clients" className="main3 d-grid align-items-center">
-                <div className="container text-center">
-                    <h1 className="text-start">Our Clients</h1>
-                    <p className="text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit repellat nulla id eveniet optio earum enim animi corporis mollitia quisquam at incidunt!</p>
-                </div>
-            </section>
-            <section id="social" className="main4 d-grid align-items-center">
-                <div className="container text-center">
-                    <h1 className="text-start">Social</h1>
-                    <p className="text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit repellat nulla id eveniet optio earum enim animi corporis mollitia quisquam at incidunt!</p>
-                </div>
-            </section>
-            <footer id="contact-us" className="footer d-grid align-items-center ">
-                    <div className="container text-center">
-                        <h2>Contact us</h2>
-                        <h2>demo@demo-corp.co</h2>
-                        <ul className="nav justify-content-end">
-                            <li className="nav-item">
-                                <a className="nav-link" onClick={() => scrollToSection('demo')}>DEMONSTRATE</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" onClick={() => scrollToSection('what-we-do')}>What We Do</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" onClick={() => scrollToSection('our-clients')}>Our Clients</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" onClick={() => scrollToSection('social')}>Social</a>
-                            </li>
-                        </ul>
-                    </div>
-            </footer>
+            </div>
+
+
+            
+            
+            
         </>
     );
 };

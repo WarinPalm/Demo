@@ -9,6 +9,7 @@ import Test from './Components/Test.jsx';
 import './index.css'
 import './CSS/navbar.css'
 import './CSS/style.css'
+import './CSS/OurService.css'
 
 const router = createBrowserRouter([
   {
