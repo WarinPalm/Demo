@@ -10,7 +10,55 @@
     width: 100%;
     min-height: 100vh;
 }
-
+.our-services{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-edu{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-dev{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-drone{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-holo{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-space{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-metaverse{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
 .logo-demo {
     width: 500px;
     height: 500px;
@@ -26,30 +74,6 @@
     color: white;
 }
 
-
-
-
-.what-we-do{
-    background-color: rgb(0, 51, 36);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
-    color: white; 
-    width: 100%;
-    min-height: 100vh;
-}
-.our-clients{
-    background-color: rgb(0, 66, 66);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
-    color: white; 
-    width: 100%;
-    min-height: 100vh;
-}
-.our-services{
-    background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
-    color: white; 
-    width: 100%;
-    min-height: 100vh;
-}
 .footer{
     background-color: rgb(48, 48, 48);
     width: 100%;

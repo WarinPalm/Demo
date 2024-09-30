@@ -2,8 +2,14 @@ import React from "react";
 import Navbar from './Navbar.jsx';
 
 import OurServices from "./OurServices.jsx";
-
 import Footer from "./Footer.jsx";
+
+import DemoEDU from "./DemoEDU.jsx";
+import DemoDEV from "./DemoDEV.jsx";
+import DemoDRONE from "./DemoDRONE.jsx";
+import DemoHOLO from "./DemoHOLO.jsx";
+import DemoSPACE from "./DemoSPACE.jsx";
+import DemoMETAVERSE from "./DemoMETAVERSE.jsx";
 
 const Home = () => {
     const scrollToSection = (id) => {
@@ -41,8 +47,15 @@ const Home = () => {
         
    
             <OurServices />
+            <DemoEDU />
+            <DemoDEV />
+            <DemoDRONE />
+            <DemoHOLO />
+            <DemoSPACE />
+            <DemoMETAVERSE />
 
             <Footer />
+
             <div className="row" style={{position: 'fixed', bottom: "20px", right: "20px", zIndex: "100"}}>
                 <div className="col-1">
                     <button className="btn btn-custom-demo" onClick={() => scrollToSection('demo')}>

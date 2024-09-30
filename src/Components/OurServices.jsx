@@ -1,7 +1,12 @@
 import React from 'react';
 
 function OurServices() {
-  
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
 
   return (
@@ -15,19 +20,19 @@ function OurServices() {
             <div className="col-8">
                 <div className="row">
                     <div className="col-4 mb-4">
-                        <div className="card card-hover">
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
                         <span class="material-symbols-outlined">school</span>
                             <h1 className='title-service'>DEMO EDU</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover">
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
                         <span class="material-symbols-outlined">code</span>
                             <h1 className='title-service'>DEMO DEV</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover">
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
                         <span class="material-symbols-outlined">sports_esports</span>
                             <h1 className='title-service'>DEMO DRONE</h1>
                         </div>
@@ -39,13 +44,13 @@ function OurServices() {
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover">
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
                             <img src="/DEMOLogo.png" className="card-img-top" alt="demo" />
                             <h1 className='title-service'>DEMO SPACE </h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover">
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
                             <img src="/DEMOLogo.png" className="card-img-top" alt="demo" />
                             <h1 className='title-service'>DEMO METAVERSE</h1>
                         </div>
