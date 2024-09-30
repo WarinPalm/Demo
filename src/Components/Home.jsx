@@ -1,4 +1,5 @@
 import React from "react";
+import{Link} from 'react-router-dom'
 import Navbar from './Navbar.jsx';
 
 import OurServices from "./OurServices.jsx";
@@ -35,6 +36,9 @@ const Home = () => {
                         
                         <li className="nav-item">
                             <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO MUSIC</button>
+                        </li>
+                        <li className="nav-item">
+                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO DJ</button>
                         </li>
                         <li className="nav-item">
                             <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO DJ</button>

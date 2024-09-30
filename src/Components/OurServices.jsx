@@ -26,31 +26,31 @@ function OurServices() {
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-dev')}>
                         <span class="material-symbols-outlined">code</span>
                             <h1 className='title-service'>DEMO DEV</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-drone')}>
                         <span class="material-symbols-outlined">sports_esports</span>
                             <h1 className='title-service'>DEMO DRONE</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover">
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-holo')}>
                         <span class="material-symbols-outlined">view_in_ar</span>
                             <h1 className='title-service'>DEMO HOLO</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-space')}>
                             <img src="/DEMOLogo.png" className="card-img-top" alt="demo" />
                             <h1 className='title-service'>DEMO SPACE </h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
-                        <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
+                        <div className="card card-hover" onClick={()=>scrollToSection('demo-metaverse')}>
                             <img src="/DEMOLogo.png" className="card-img-top" alt="demo" />
                             <h1 className='title-service'>DEMO METAVERSE</h1>
                         </div>
