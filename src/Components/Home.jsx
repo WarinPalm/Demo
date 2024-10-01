@@ -23,29 +23,37 @@ const Home = () => {
         <>
             <Navbar />
             <section id="demo" className="main d-grid align-items-center">
-                <div className="container text-center">
+                <div className="container">
                     <div className="logo-demo"></div>
-                    <h1 className="demo-title me-3">DEMONSTRATE THE FUTURE</h1>
+                    <h1 className="demo-title text-center me-3">DEMONSTRATE THE FUTURE</h1>
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
-                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('demo')}>DEMO EDU</button>
+                            <a className="nav-link me-3" onClick={() => scrollToSection('demo-edu')}>Education</a>
                         </li>
                         <li className="nav-item">
-                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('demo')}>DEMO EDU</button>
+                            <a className="nav-link me-3" onClick={() => scrollToSection('demo-dev')}>Software Development</a>
                         </li>
                         
                         <li className="nav-item">
-                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO MUSIC</button>
+                            <a className="nav-link me-3" onClick={() => scrollToSection('demo-drone')}>Drone</a>
                         </li>
                         <li className="nav-item">
-                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO DJ</button>
+                            <a className="nav-link me-3" onClick={() => scrollToSection('demo-holo')}>Hologram</a>
                         </li>
                         <li className="nav-item">
-                            <button className="btn btn-demo me-3" onClick={() => scrollToSection('social')}>DEMO DJ</button>
+                            <a className="nav-link me-3" onClick={() => scrollToSection('demo-space')}>Space for Rent</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link me-3" onClick={() => scrollToSection('demo-metaverse')}>Metaverse</a>
                         </li>
 
                     </ul>
-                    <p className="mt-4">Social media</p>
+            
+                    <h5 className="mt-3">Welcome to Demo Corporation where are High-end Technology converge to create groundbreaking solutions. Our extensive expertise in these fields fuels our passion for integrating cutting-edge technologies like the metaverse, AR, VR, and more with creative content.</h5>
+                    <h5 className="mt-3">We specialize in crafting immersive experiences such as university workshop, software solutions, drone-based services, holographic displays, and metaverse events. Whether it’s a virtual concert, a futuristic fashion show, or a unique tourist attraction, we aim to transform everyday experiences and empower businesses to solve complex challenges with innovative technology. Join us in exploring new dimensions and redefining possibilities!</h5>
+
+                    
+                    
                 </div>
             </section>
         

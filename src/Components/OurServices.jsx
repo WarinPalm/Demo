@@ -21,25 +21,25 @@ function OurServices() {
                 <div className="row">
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
-                        <span class="material-symbols-outlined">school</span>
+                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
                             <h1 className='title-service'>DEMO EDU</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-dev')}>
-                        <span class="material-symbols-outlined">code</span>
+                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
                             <h1 className='title-service'>DEMO DEV</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-drone')}>
-                        <span class="material-symbols-outlined">sports_esports</span>
+                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
                             <h1 className='title-service'>DEMO DRONE</h1>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-holo')}>
-                        <span class="material-symbols-outlined">view_in_ar</span>
+                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
                             <h1 className='title-service'>DEMO HOLO</h1>
                         </div>
                     </div>
