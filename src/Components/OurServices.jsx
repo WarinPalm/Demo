@@ -21,38 +21,50 @@ function OurServices() {
                 <div className="row">
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-edu')}>
-                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
-                            <h1 className='title-service'>DEMO EDU</h1>
+                            <img src="/DemoEdu.png" className="card-img-top img-fluid pt-4" alt="demo"/>
+                            <div className="card-body">
+                              <h5 className="title-service text-center">DEMO EDU</h5>
+                            </div>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-dev')}>
-                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
-                            <h1 className='title-service'>DEMO DEV</h1>
+                            <img src="/DemoDev.png" className="card-img-top img-fluid pt-4" alt="demo"/>
+                            <div className="card-body">
+                              <h5 className="title-service text-center">DEMO DEV</h5>
+                            </div>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-drone')}>
-                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
-                            <h1 className='title-service'>DEMO DRONE</h1>
+                            <img src="/DemoDrone.png" className="card-img-top img-fluid pt-4" alt="demo"/>
+                            <div className="card-body">
+                              <h5 className="title-service text-center">DEV DRONE</h5>
+                            </div>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-holo')}>
-                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo"/>
-                            <h1 className='title-service'>DEMO HOLO</h1>
+                            <img src="/DemoHolo.png" className="card-img-top img-fluid pt-4" alt="demo"/>
+                            <div className="card-body">
+                              <h5 className="title-service text-center mt-3">DEMO HOLO</h5>
+                            </div>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-space')}>
-                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo" />
-                            <h1 className='title-service'>DEMO SPACE </h1>
+                            <img src="/DemoSpace.png" className="card-img-top img-fluid pt-4" alt="demo"/>
+                            <div className="card-body">
+                              <h5 className="title-service text-center mt-3">DEMO SPACE</h5>
+                            </div>
                         </div>
                     </div>
                     <div className="col-4 mb-4">
                         <div className="card card-hover" onClick={()=>scrollToSection('demo-metaverse')}>
-                            <img src="/DEMOLogo.png" className="card-img-top" alt="demo" />
-                            <h1 className='title-service'>DEMO METAVERSE</h1>
+                            <img src="/DemoMetaverse.png" className="card-img-top img-fluid pt-4" alt="demo" />
+                            <div className="card-body">
+                              <h5 className="title-service text-center mt-3">DEMO METAVERSE</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
