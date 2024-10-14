@@ -23,8 +23,9 @@ function DemoEDU() {
         <div className="container">
           <div className="row align-items-center">
 
-            <div className="col-12">
-              {pageNumber === 1 && (
+            <div className="col-12">  {/* เนื้อหาแสดง content */}
+              {/* pagenumber เท่ากับ 1 ให้แสดง */}
+              {pageNumber === 1 && ( 
                 <div>
                   <h1>Page 1: Demo EDU</h1>
                   <p>
@@ -35,6 +36,7 @@ function DemoEDU() {
                 </div>
               )}
 
+              {/* pagenumber เท่ากับ 2 ให้แสดง */}
               {pageNumber === 2 && (
                 <div>
                   <h1>Page 2: Demo Image</h1>
@@ -46,6 +48,7 @@ function DemoEDU() {
                 </div>
               )}
 
+              {/* pagenumber เท่ากับ 3 ให้แสดง */}
               {pageNumber === 3 && (
                 <div>
                   <h1>Page 3</h1>
