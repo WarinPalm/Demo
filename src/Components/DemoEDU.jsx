@@ -49,7 +49,7 @@ function DemoEDU() {
                   <div className="col">
                     <h1>Page 2: Demo Image</h1>
                   </div>
-                  <div className="col w-50" >
+                  <div className="col w-50 w-clamp" >
                     <div style={{position:"relative", boxSizing:"border-box"}}>
                       <div className="row" >
                         <div className="p-1 col">
@@ -61,8 +61,8 @@ function DemoEDU() {
                         
                       </div>
                       <div className="row " style={{display: "flex", justifyContent:"end"}}>
-                        <span className="p-1" style={{width: "45%", position:"absolute", inset:"auto auto -10% 15%"}}>
-                          <img src="../../img/IMG_0068.JPG" alt="Demo EDU Image" style={{width: "100%", height:"200px",objectFit:"cover", objectPosition:"center center"}} />
+                        <span className="p-1 h-clamp" style={{width: "45%", position:"absolute", inset:"auto auto -10% 15%"}}>
+                          <img src="../../img/IMG_0068.JPG" alt="Demo EDU Image" style={{width: "100%", height:"100%", objectFit:"cover", objectPosition:"center center"}} />
                         </span>
                         <span className="p-1" style={{width: "40%",  display: "flex", justifyContent:"end"}}>
                           <span>
@@ -78,8 +78,8 @@ function DemoEDU() {
                         </div>
                       </div>
                       <div style={{width:"25%",position: "absolute", zIndex: "100", bottom:"0", left:"-2%"}}>
-                        <div className="border border-black border-5">  
-                          <img src="../../img/IMG_3298.JPG" alt="Demo EDU Image" style={{width: "100%", height:"180px",objectFit:"cover", objectPosition:"center center"}} />
+                        <div className="border border-black border-5 ">  
+                          <img src="../../img/IMG_3298.JPG" alt="Demo EDU Image" style={{width: "100%", height:"auto",objectFit:"cover", objectPosition:"center center"}} />
                         </div>
                       </div>
                     </div>
