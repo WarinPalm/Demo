@@ -18,7 +18,7 @@ const Navbar = () => {
                             <a className="nav-link" onClick={() => scrollToSection('our-services')}>Our Services</a>
                         </li>
                         <li className="nav-item">
-                            <button className="btn btn-demo-contact ms-3">Contact Us</button>
+                            <button className="btn btn-demo-contact ms-3"><a href="mailto:demo@demo-corp.co">Contact Us</a> </button>
                         </li>
                     </ul>
                 </div>

@@ -3,7 +3,7 @@ import React from 'react'
 function DemoHOLO() {
   return(
     <>
-    <section id="demo-holo" className="demo-holo d-grid align-items-center">
+    <section id="demo-holo" className="demo-holo d-grid align-items-center scrolling-fixed" >
         <div className="container">
           <div className="row">
             <div className="col-4">

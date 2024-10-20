@@ -12,8 +12,12 @@
 .prev-button {
 left: 20px; /* ปรับตำแหน่งของ Prev ไปทางซ้าย */
 }
-
+ 
 .next-button {
 right: 20px; /* ปรับตำแหน่งของ Next ไปทางขวา */
 }
   
+.scrolling-fixed{
+    position: sticky;
+    top: 0;
+}

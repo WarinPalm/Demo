@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home/>
   }
-]);
+]);  
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
