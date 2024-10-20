@@ -1,0 +1,19 @@
+.demo-edu {
+    position: relative;
+}
+  
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.prev-button {
+left: 20px; /* ปรับตำแหน่งของ Prev ไปทางซ้าย */
+}
+
+.next-button {
+right: 20px; /* ปรับตำแหน่งของ Next ไปทางขวา */
+}
+  

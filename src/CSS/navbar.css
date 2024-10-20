@@ -1,0 +1,18 @@
+.navbar1 {
+    background-color: rgb(48, 48, 48);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.nav-content{
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+}

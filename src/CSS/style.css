@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.main {
+    background-color: black;
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.our-services{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-edu{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-dev{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-drone{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-holo{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-space{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.demo-metaverse{
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    color: white; 
+    width: 100%;
+    min-height: 100vh;
+}
+.logo-demo {
+    width: 500px;
+    height: 500px;
+    background-image: url("/DEMOLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto; 
+}
+
+.demo-title {
+    margin-top: -50px;
+    font-size: 3em;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    min-height: 30vh;
+    color: white;
+}
+.btn-demo{
+    background-color: #3d9699;
+}
+.btn-demo:hover{
+    background-color: #5ce1e6;
+    color: black;
+    cursor: pointer;
+}
+.btn-demo-contact {
+    background: linear-gradient(to right, #5ce1e6, #3d9699); /* สีส้มชมพูไปส้มอ่อนแนวนอน */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn-demo-contact:hover {
+    background: linear-gradient(to right, #3d9699, #5ce1e6);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-custom-demo img{
+    width: 50px;
+    height: 60px;
+}
+.btn-custom-demo{
+    border-radius: 50%;
+    background-color:#3d9699;
+}
+.btn-custom-demo:hover{
+    border-radius: 50%;
+    background-color:#5ce1e6;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color:#5ce1e6
+}

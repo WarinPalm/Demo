@@ -1,0 +1,45 @@
+.card-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    border-color: white;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 15px;
+    width: 270px; 
+    height: 300px;
+}
+
+.card-hover:hover {
+    border-color: #5ce1e6;
+    transform: scale(1.05); 
+}
+.card-hover:hover .title-service {
+    color: #5ce1e6;
+}
+.card-hover:hover .material-symbols-outlined{
+    font-size: 200px; 
+    color: #5ce1e6;
+}
+.card-img-top {
+    width: 170px; 
+    height: auto; 
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+  
+.title-service{
+    color: white;
+    font-size: 20px;
+}
+.material-symbols-outlined {    
+
+    font-size: 200px; /* เปลี่ยนขนาดเป็น 48px ตามต้องการ */
+    color: white; /* เปลี่ยนสีไอคอนหากต้องการ */
+}
+
+
+
+
