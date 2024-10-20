@@ -53,7 +53,7 @@ function DemoEDU() {
                     <div style={{position:"relative", boxSizing:"border-box"}}>
                       <div className="row" >
                         <div className="p-1 col">
-                          <img src="../../img/IMG_0076.JPG" alt="Demo EDU Image" style={{width: "100%", height:"100%"}} />
+                          <img src="../../img/C346B7DC-EB48.JPEG" alt="Demo EDU Image" style={{width: "100%", height:"100%"}} />
                         </div>
                         <div className="p-1 col" >
                           <img src="../../img/181457_0.jpg" alt="Demo EDU Image" style={{width: "100%", height:"100%"}} />
