@@ -3,7 +3,7 @@ import React from 'react'
 function DemoMETAVERSE() {
   return (
     <>
-    <section id="demo-metaverse" className="demo-metaverse d-grid align-items-center">
+    <section id="demo-metaverse" className="demo-metaverse d-grid align-items-center scrolling-fixed">
         <div className="container">
           <div className="row">
             <div className="col-4">

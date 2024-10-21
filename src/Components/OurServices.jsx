@@ -11,7 +11,7 @@ function OurServices() {
 
   return (
     <>
-      <section id="our-services" className="our-services d-grid align-items-center">
+      <section id="our-services" className="our-services d-grid align-items-center scrolling-fixed" >
         <div className="container">
           <div className="row">
             <div className="col-4">

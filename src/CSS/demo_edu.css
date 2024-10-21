@@ -12,8 +12,19 @@
 .prev-button {
 left: 20px; /* ปรับตำแหน่งของ Prev ไปทางซ้าย */
 }
-
+ 
 .next-button {
 right: 20px; /* ปรับตำแหน่งของ Next ไปทางขวา */
 }
   
+/* .scrolling-fixed{
+    position: sticky;
+    top: 0;
+} */
+
+.w-clamp{
+    width: clamp(50vw, 100%, 100vw);
+}
+/* .h-clamp img{
+    height: clamp(100px, 200px,200px);
+} */

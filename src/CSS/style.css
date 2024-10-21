@@ -16,7 +16,7 @@
     color: white; 
     width: 100%;
     min-height: 100vh;
-}
+} 
 .demo-edu{
     background-color: rgb(0, 0, 0);
     padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
@@ -120,3 +120,11 @@
 .nav-link:hover{
     color:#5ce1e6
 }
+/* 
+.scrolling-fixed{
+    position: sticky;
+    top: 0;
+} */
+/* .test_p{
+    color: red;
+} */
