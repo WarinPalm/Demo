@@ -28,19 +28,34 @@ function DemoEDU() {
               {/* เนื้อหาแสดง content */}
               {/* pagenumber เท่ากับ 1 ให้แสดง */}
               {pageNumber === 1 && (
-                <div>
-                  <h1>Page 1: Demo EDU</h1>
-                  <p className="test_p">
-                    As a pioneering leader in Web3 education, we specialize in
-                    providing comprehensive workshop on Blockchain fundamentals
-                    and Web3, along with technical skills like coding and
-                    building DApps. Our expertise also includes game development
-                    and 2D/3D design, equipping learners with both creative and
-                    technical skills. With experience training at over 20
-                    universities nationwide and formal partnerships (MOUs) with
-                    renowned institution. we have trained more than 2,000
-                    students, reflecting the quality and trust in our programs.
-                  </p>
+                <div className="row">
+                  <div className="col-7">
+                      <div className="card bg-transparent border border-light p-3">
+                        <div className="card-body">
+                          <hr style={{color:"white"}}/>
+                          <div style={{color:"white", fontSize:"20px"}} className="card-text">
+                              As a pioneering leader in Web3 education, we specialize in
+                            providing comprehensive workshop on Blockchain fundamentals
+                            and Web3, along with technical skills like coding and
+                            building DApps. Our expertise also includes game development
+                            and 2D/3D design, equipping learners with both creative and
+                            technical skills. With experience training at over 20
+                            universities nationwide and formal partnerships (MOUs) with
+                            renowned institution. we have trained more than 2,000
+                            students, reflecting the quality and trust in our programs.
+                          </div>
+                          <hr style={{color:"white"}} />
+                        </div>
+                      </div>
+                  </div>
+                  <div className="col-5" style={{ position: "relative" }}>
+                    <div className="edu-logo"></div>
+                    <div className="text-on-edu">
+                      <span className="word">WHAT</span>
+                      <span className="word">WE</span>
+                      <span className="word">DO</span>
+                    </div>
+                  </div>
                 </div>
               )}
               {/* pagenumber เท่ากับ 2 ให้แสดง */}
@@ -104,25 +119,24 @@ function DemoEDU() {
 
         {/* ปุ่ม Prev */}
         <div className="nav-button prev-button">
-          <button
+          <i
+            className="fa-solid fa-angles-left"
             onClick={handlePrev}
-            className="btn btn-secondary"
+            style={{ cursor: 'pointer' }}
             disabled={pageNumber === 1}
-          >
-            Prev
-          </button>
+          ></i>
         </div>
 
         {/* ปุ่ม Next */}
         <div className="nav-button next-button">
-          <button
+          <i
+            className="fa-solid fa-angles-right"
             onClick={handleNext}
-            className="btn btn-primary"
+            style={{ cursor: 'pointer' }}
             disabled={pageNumber === 3}
-          >
-            Next
-          </button>
+          ></i>
         </div>
+
       </section>
     </>
   );

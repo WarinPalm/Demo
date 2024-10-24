@@ -1,1 +1,48 @@
- 
+.demo-dev {
+    position: relative;
+}
+   
+/* .scrolling-fixed{
+    position: sticky;
+    top: 0;
+} */
+
+.w-clamp{
+    width: clamp(50vw, 100%, 100vw);
+}
+/* .h-clamp img{
+    height: clamp(100px, 200px,200px);
+} */
+.dev-logo {
+    width: 400px;
+    height: 400px;
+    background-image: url("./DemoDev.png");
+    opacity: 35%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(20deg);
+    margin-top: 70px;
+}
+
+.text-on-dev {
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.word {
+    display: block; 
+    font-size: 50px;
+}
+
+.word:nth-child(2) {
+    margin-left: 100px;
+}
+
+.word:nth-child(3) {
+    margin-left: 170px; 
+}

@@ -120,6 +120,31 @@
 .nav-link:hover{
     color:#5ce1e6
 }
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 50px; 
+    color: white; 
+    cursor: pointer;
+    padding: 10px; 
+    
+}
+
+.nav-button:hover {
+    color: #5ce1e6;
+}
+.nav-button:active {
+    color: #3d9699;
+}
+.prev-button {
+    left: 20px; 
+}
+ 
+.next-button {
+    right: 20px; 
+}
 /* 
 .scrolling-fixed{
     position: sticky;

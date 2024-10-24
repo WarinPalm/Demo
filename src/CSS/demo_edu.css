@@ -1,22 +1,7 @@
 .demo-edu {
     position: relative;
 }
-  
-.nav-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-}
-
-.prev-button {
-left: 20px; /* ปรับตำแหน่งของ Prev ไปทางซ้าย */
-}
- 
-.next-button {
-right: 20px; /* ปรับตำแหน่งของ Next ไปทางขวา */
-}
-  
+   
 /* .scrolling-fixed{
     position: sticky;
     top: 0;
@@ -28,3 +13,35 @@ right: 20px; /* ปรับตำแหน่งของ Next ไปทาง�
 /* .h-clamp img{
     height: clamp(100px, 200px,200px);
 } */
+.edu-logo {
+    width: 400px;
+    height: 400px;
+    background-image: url("./DemoEdu.png");
+    opacity: 35%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    transform: rotate(-20deg);
+}
+.text-on-edu {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.word {
+    display: block; 
+    font-size: 50px;
+}
+
+.word:nth-child(2) {
+    margin-left: 100px;
+}
+
+.word:nth-child(3) {
+    margin-left: 170px; 
+}

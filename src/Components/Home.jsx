@@ -71,10 +71,6 @@ const Home = () => {
                     <p className="mt-3" style={{ textIndent: '4em' }}>
                     We specialize in crafting immersive experiences such as university workshops, software solutions, drone-based services, holographic displays, and metaverse events. Whether it’s a virtual concert, a futuristic fashion show, or a unique tourist attraction, we aim to transform everyday experiences and empower businesses to solve complex challenges with innovative technology. Join us in exploring new dimensions and redefining possibilities!
                     </p>
-
-
-
-                    
                     
                 </div>
             </section>
