@@ -10,7 +10,6 @@ function DemoEDU() {
       setPageNumber(pageNumber + 1);
     }
   };
-
   // ฟังก์ชันสำหรับกลับไปยังหน้าก่อนหน้า
   const handlePrev = () => {
     if (pageNumber > 1) {
@@ -20,29 +19,22 @@ function DemoEDU() {
 
   return (
     <>
-      <section id="demo-edu" className="demo-edu d-grid align-items-center scrolling-fixed" >
+      <section id="demo-edu" className="demo-edu w-100 vh-100 d-grid justify-content-center align-items-center scrolling-fixed" >
         <div className="container" >
           <div className="row align-items-center">
             <div className="col-12">
-              {" "}
-              {/* เนื้อหาแสดง content */}
+             
               {/* pagenumber เท่ากับ 1 ให้แสดง */}
               {pageNumber === 1 && (
                 <div className="row">
                   <div className="col-7">
-                      <div className="card bg-transparent border border-light p-3">
+                      <div className="card bg-transparent border border-light p-5">
                         <div className="card-body">
                           <hr style={{color:"white"}}/>
                           <div style={{color:"white", fontSize:"20px"}} className="card-text">
-                              As a pioneering leader in Web3 education, we specialize in
-                            providing comprehensive workshop on Blockchain fundamentals
-                            and Web3, along with technical skills like coding and
-                            building DApps. Our expertise also includes game development
-                            and 2D/3D design, equipping learners with both creative and
-                            technical skills. With experience training at over 20
-                            universities nationwide and formal partnerships (MOUs) with
-                            renowned institution. we have trained more than 2,000
-                            students, reflecting the quality and trust in our programs.
+                          Empower Your Future with immersive blockchain programming workshops and hands-on courses. 
+                          earn, Build, and Innovate as you unlock the potential of blockchain technology through expert-led experiences. 
+                          Code the Next Revolution and transform ideas into decentralized solutions today!
                           </div>
                           <hr style={{color:"white"}} />
                         </div>
@@ -58,6 +50,7 @@ function DemoEDU() {
                   </div>
                 </div>
               )}
+
               {/* pagenumber เท่ากับ 2 ให้แสดง */}
               {pageNumber === 2 && (
                 <div className="row" >
@@ -102,14 +95,13 @@ function DemoEDU() {
                   
                 </div>
               )}
+
               {/* pagenumber เท่ากับ 3 ให้แสดง */}
               {pageNumber === 3 && (
                 <div>
                   <h1>Page 3</h1>
                   <p>
-                    On this page, you can explore additional information,
-                    resources, or content related to Web3, Blockchain, and other
-                    cutting-edge technologies.
+                    เผื่ออยากทำอะไร.
                   </p>
                 </div>
               )}

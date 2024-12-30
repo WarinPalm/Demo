@@ -20,12 +20,11 @@ function DemoDEV() {
 
   return (
     <>
-      <section id="demo-dev" className="demo-edu d-grid align-items-center scrolling-fixed" >
+      <section id="demo-dev" className="demo-dev w-100 vh-100 d-grid justify-content-center align-items-center scrolling-fixed" >
         <div className="container" >
           <div className="row align-items-center">
             <div className="col-12">
-              {" "}
-              {/* เนื้อหาแสดง content */}
+             
               {/* pagenumber เท่ากับ 1 ให้แสดง */}
               {pageNumber === 1 && (
                 <div className="row">
@@ -38,13 +37,13 @@ function DemoDEV() {
                     </div>
                   </div>
                   <div className="col-7">
-                      <div className="card bg-transparent border border-light p-3">
+                      <div className="card bg-transparent border border-light p-5">
                         <div className="card-body">
                           <hr style={{color:"white"}}/>
                           <div style={{color:"white", fontSize:"20px"}} className="card-text">
-                          As a cutting-edge provider of digital development solutions, we specialize in creating immersive 2D and 3D Unity games that captivate audiences across platforms. Our expertise extends to crafting robust web applications, seamlessly blending functionality with user-centric design. We elevate our offerings by leveraging the power of blockchain technology, specifically deploying projects on the Internet Computer (ICP), including educational games, interactive simulations, scalable web solutions, and blockchain-integrated applications. Our team of skilled developers and designers has collaborated with both startups and established corporations.
-
-By continuously staying at the forefront of emerging technologies, we ensure that our clients receive innovative solutions tailored to their unique needs. Our commitment to excellence and collaboration has earned us a reputation for delivering impactful results. As we move forward, we remain dedicated to pushing the boundaries of digital development and unlocking new possibilities for businesses and users alike.
+                          Crafting immersive games and create web applications powered by blockchain technology. 
+                          Delivering innovative blockchain solutions for game design and web development that stand out.
+                          Enhance your vision with expertly designed games and decentralized web applications on blockchain.
                           </div>
                           <hr style={{color:"white"}} />
                         </div>
@@ -53,6 +52,7 @@ By continuously staying at the forefront of emerging technologies, we ensure tha
                   
                 </div>
               )}
+
               {/* pagenumber เท่ากับ 2 ให้แสดง */}
               {pageNumber === 2 && (
                 <div className="row" >
@@ -97,14 +97,13 @@ By continuously staying at the forefront of emerging technologies, we ensure tha
                   
                 </div>
               )}
+
               {/* pagenumber เท่ากับ 3 ให้แสดง */}
               {pageNumber === 3 && (
                 <div>
                   <h1>Page 3</h1>
                   <p>
-                    On this page, you can explore additional information,
-                    resources, or content related to Web3, Blockchain, and other
-                    cutting-edge technologies.
+                    เผื่ออยากทำอะไร.
                   </p>
                 </div>
               )}

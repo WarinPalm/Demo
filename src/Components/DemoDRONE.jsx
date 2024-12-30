@@ -3,17 +3,12 @@ import React from 'react'
 function DemoDRONE() {
   return (
     <>
-    <section id="demo-drone" className="demo-drone d-grid align-items-center">
+    <section id="demo-drone" className=" w-100 vh-100 demo-drone d-grid justify-content-center align-items-center">
         <div className="container">
-          <div className="row">
-            <div className="col-4">
-              <h1>Demo DRONE</h1>
-            </div>
-            
-            
-          </div>
+          <h1>Coming Soon</h1>
         </div>
       </section>
+      
     </>
   )
 }
