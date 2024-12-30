@@ -1,1 +1,38 @@
- 
+
+
+.w-clamp{
+    width: clamp(50vw, 100%, 100vw);
+}
+
+.metaverse-logo {
+    width: 350px;
+    height: 350px;
+    background-image: url("./DemoMetaverse.png");
+    opacity: 35%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    transform: rotate(-20deg);
+}
+.text-on-metaverse {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.word {
+    display: block; 
+    font-size: 50px;
+}
+
+.word:nth-child(2) {
+    margin-left: 100px;
+}
+
+.word:nth-child(3) {
+    margin-left: 170px; 
+}

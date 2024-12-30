@@ -1,21 +1,9 @@
-.demo-dev {
-    position: relative;
-}
-   
-/* .scrolling-fixed{
-    position: sticky;
-    top: 0;
-} */
-
 .w-clamp{
     width: clamp(50vw, 100%, 100vw);
 }
-/* .h-clamp img{
-    height: clamp(100px, 200px,200px);
-} */
 .dev-logo {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-image: url("./DemoDev.png");
     opacity: 35%;
     background-size: cover;

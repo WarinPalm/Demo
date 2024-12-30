@@ -1,18 +1,7 @@
-.demo-edu {
-    position: relative;
-}
-   
-/* .scrolling-fixed{
-    position: sticky;
-    top: 0;
-} */
 
 .w-clamp{
     width: clamp(50vw, 100%, 100vw);
 }
-/* .h-clamp img{
-    height: clamp(100px, 200px,200px);
-} */
 .edu-logo {
     width: 400px;
     height: 400px;
