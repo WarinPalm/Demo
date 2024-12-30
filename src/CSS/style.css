@@ -5,21 +5,21 @@
 }
 .main {
     background-color: black;
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px; 
     color: white; 
     width: 100%;
     min-height: 100vh;
 }
 .our-services{
     background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px;
     color: white; 
     width: 100%;
     min-height: 100vh;
 } 
 .demo-edu{
     background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px; 
     color: white; 
     width: 100%;
     min-height: 100vh;
@@ -27,7 +27,7 @@
 }
 .demo-dev{
     background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px; 
     color: white; 
     width: 100%;
     min-height: 100vh;
@@ -35,7 +35,7 @@
 }
 .demo-drone{
     background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px; 
     color: white; 
     width: 100%;
     min-height: 100vh;
@@ -43,7 +43,7 @@
 }
 .demo-holo{
     background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px; 
     color: white; 
     width: 100%;
     min-height: 100vh;
@@ -51,7 +51,7 @@
 }
 .demo-space{
     background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px; 
     color: white; 
     width: 100%;
     min-height: 100vh;
@@ -59,7 +59,7 @@
 }
 .demo-metaverse{
     background-color: rgb(0, 0, 0);
-    padding-top: 60px; /* เพื่อไม่ให้เนื้อหาถูกปิดโดย navbar */
+    padding-top: 60px; 
     color: white; 
     width: 100%;
     min-height: 100vh;

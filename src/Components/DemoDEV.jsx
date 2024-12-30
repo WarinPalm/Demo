@@ -40,11 +40,13 @@ function DemoDEV() {
                       <div className="card bg-transparent border border-light p-5">
                         <div className="card-body">
                           <hr style={{color:"white"}}/>
+
                           <div style={{color:"white", fontSize:"20px"}} className="card-text">
                           Crafting immersive games and create web applications powered by blockchain technology. 
                           Delivering innovative blockchain solutions for game design and web development that stand out.
                           Enhance your vision with expertly designed games and decentralized web applications on blockchain.
                           </div>
+                          
                           <hr style={{color:"white"}} />
                         </div>
                       </div>
