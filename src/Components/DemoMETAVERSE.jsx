@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 function DemoMETAVERSE() {
   const [pageNumber, setPageNumber] = useState(1); // เริ่มต้นที่หน้าแรก
@@ -23,9 +24,11 @@ function DemoMETAVERSE() {
           <div className="container" >
             <div className="row align-items-center">
               <div className="col-12">
-               
+              <AnimatePresence mode="wait">
                 {/* pagenumber เท่ากับ 1 ให้แสดง */}
                 {pageNumber === 1 && (
+                  <motion.div key="page1" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.5 }} className="content">
                   <div className="row">
                     <div className="col-7">
                         <div className="card bg-transparent border border-light p-5">
@@ -49,10 +52,13 @@ function DemoMETAVERSE() {
                       </div>
                     </div>
                   </div>
+                  </motion.div>
                 )}
   
                 {/* pagenumber เท่ากับ 2 ให้แสดง */}
                 {pageNumber === 2 && (
+                  <motion.div key="page2" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.5 }} className="content">
                   <div className="row" >
                     <div className="col">
                       <h1>Page 2: Demo Image</h1>
@@ -94,17 +100,22 @@ function DemoMETAVERSE() {
                     </div>
                     
                   </div>
+                  </motion.div>
                 )}
   
                 {/* pagenumber เท่ากับ 3 ให้แสดง */}
                 {pageNumber === 3 && (
+                  <motion.div key="page3" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.5 }} className="content">
                   <div>
                     <h1>Page 3</h1>
                     <p>
                       เผื่ออยากทำอะไร.
                     </p>
                   </div>
+                  </motion.div>
                 )}
+                </AnimatePresence>
               </div>
             </div>
           </div>
